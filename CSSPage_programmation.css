@@ -1,0 +1,111 @@
+﻿/*import*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
+
+/*Navbar*/
+/*Parametre marge auto*/
+body {
+    margin-top: 0 auto;
+    margin: 0 auto;
+}
+
+/*Parametre Nav color and largeur*/
+header {
+    height: 70px;
+    background-color: #FF9E2B;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+/*Parametre Navbar txt and lien and transition*/
+
+BMG {
+    position: absolute;
+    padding: 3px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+}
+
+ul {
+    width: auto;
+    float: right;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+li {
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+
+a.test {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: white;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #F0c330;
+    transition: 0.5s;
+}
+/*Tilte Page*/
+
+section.BackgroudProgrammation {
+    margin-top: 0px;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    background-size: cover;
+    height: 700px;
+}
+
+.Title_Page {
+    position: absolute;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    padding-top: 50px;
+    margin-left: 37%;
+    margin-right: 35%;
+    color: black;
+    font-size: 300%;
+}
+
+.sous_titlePAGE {
+    text-align: center;
+    font-family: 'Rokkitt', serif;
+    color: black;
+    font-size: 100%;
+    padding-top: 130px;
+    padding-left: 33.5%;
+    padding-right: 30%;
+    font-size: 150%;
+    margin-right: 0 auto;
+}
+
+.img_program {
+    position: absolute;
+    padding-top: 300px;
+    margin-left: 40%;
+}
+
+
+/*Fin de page*/
+
+footer {
+    display: flex;
+    align-items: center;
+    margin: 5px 40%;
+    font-size: 150%;
+}
