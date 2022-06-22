@@ -1,0 +1,244 @@
+/*import*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
+
+/*Navbar*/
+    /*Parametre marge auto*/
+body{
+    margin-top: 0 auto;
+    margin: 0 auto;
+}
+
+    /*Parametre Nav color and largeur*/
+header {
+    height: 70px;
+    background-color: #FF9E2B;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+    /*Parametre Navbar txt and lien and transition*/
+
+BMG {
+    position: absolute;
+    padding: 3px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+}
+
+ul {
+    width: auto;
+    float: right;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+li {
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+
+a.test {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: white;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+    a:hover {
+        color: #F0c330;
+        transition: 0.5s;
+    }
+
+/*Text In Body or Page*/
+    /*Bienvenue*/
+
+section.hello {
+    background-image: url("img/background.png");
+    width: 100%;
+    background-size: cover;
+    height: 700px;
+    position: center;
+}
+
+
+p.hellotittle {
+    position: absolute;
+    text-align: center;
+    font-size: 550%;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    padding-top: 60px;
+    padding-left: 18%;
+    padding-right: 15%;
+    align-items: center;
+}
+
+
+section.SN_logo {
+    position: absolute;
+    display: flex;
+    padding-top: 500px;
+    height: 91%;
+    width: 90%;
+    align-content: center;
+    justify-content: center;
+}
+
+.test404 {
+    display: flex;
+    align-content: center;
+   
+}
+
+
+.logodiv1 {
+    margin-left: 0%;
+}
+
+.logodiv2 {
+    margin-left: 0%;
+}
+
+.logodiv2 {
+    margin-left: 10%;
+}
+
+.logodiv3 {
+    margin-left: 10%;
+}
+
+
+.logodiv4 {
+    margin-left: 10%;
+}
+
+    /*Question acceuil*/
+
+Question_Title {
+    position: absolute;
+    font-size: 200%;
+    display: flex;
+    align-content: center;
+    padding: 7px;
+    padding-left: 32%;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+section.Question {
+    position: absolute;
+    font-size: 170%;
+    padding-top: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Rokkitt', serif;
+}
+
+   
+    /*Illustration background*/
+
+section.background_il {
+    margin-top: 600px;
+    display: flex;
+    background-image: url("img/background.png");
+    width: 100%;
+    background-size: cover;
+    height: 700px;
+    flex-shrink: 1;
+}
+
+    /*illustration image*/
+
+section.illustration {
+    padding-top: 200px;
+    margin-left: 4%;
+}
+
+.logo_musique {
+    width: 200px;
+}
+
+.logo_nourriture {
+    width: 200px;
+}
+
+.logo_partager {
+    width: 200px;
+}
+
+.logo_fete {
+    width: 200px;
+}
+
+
+Iaa {
+    position: absolute;
+    padding-left: 0%;
+}
+
+Ia {
+    position: absolute;
+    padding-left: 25%;
+}
+
+Ib {
+    position: absolute;
+    padding-left: 50%;
+}
+
+Ic {
+    position: absolute;
+    padding-left: 75%;
+}
+
+    /*Illustration text*/
+
+section.illustration_txt {
+    padding-top: 450px;
+    display: flex;
+    font-size: 200%;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+
+ITaa {
+    position: absolute;
+    padding-left: 4%;
+}
+
+ITa {
+    position: absolute;
+    padding-left: 27%;
+}
+
+ITb {
+    position: absolute;
+    padding-left: 54%;
+}
+
+ITc {
+    position: absolute;
+    padding-left: 80%;
+}
+
+/*Fin de page*/
+
+footer{
+    display: flex;
+    align-items: center;
+    margin: 5px 40%;
+    font-size: 150%;
+}
+
